@@ -1,0 +1,76 @@
+                                                                                   MACHINE LEARNING
+                                                                                     1.SUPERVIESED LEARNING
+                                                                                       2.UNSUPERVISED LEARNING
+                                                                                         3.REINFORCEMENT LEARNING 
+
+
+
+   1.SUPERVISED  LEARNING:
+        *dependable variable(the value is predicted by the machine )
+        *independable variable(the value is given by the domain or taken by the data sets) 
+       (the model having the labels and features and targeted output -supervised learning)
+        EX : the datasets consists of the label like male or female and we are going to predict who is not died after the disater)             HINTS:
+                                                                                                                                               FEATURES(collected data)
+                                                                                                                                               CSV - comma separated values 
+   2.UNSUPERVISED LEARNING:                                                                                          
+         * we have a data but we dont have a idea of what is output and what is going to predict
+         * it will create a own model 
+
+
+
+    SUPERVISED LEARNING :
+              there are 2 types :
+                        1. CLASSIFICATION
+                        2. REGRESSION 
+       1.CLASSIFICATION:
+                        1.binary(true or false and  1 or 0)
+                        2.discrete(they having the unique values)
+                
+       2.REGRESSION:
+                   1.continuos(the input having the contious variable like infinty)
+   
+      
+
+   BIAS:
+        trainning error
+        underfitting 
+        
+   VARIANCE:
+         test error 
+         overfitting
+
+      	FLASK:
+             it is used to save our model ans we use it in api
+
+     
+
+    WHEN TO USE THE MODEL:
+            CLASSIFICATION:                      REGRESSION:
+                 1.LOGISTIC                          1.LINEAR               
+                 2.DESCISION                         2.GRADIENT DESCENT  
+                 3.RANDOM FOREST                     3. REGULARISATION
+                 4.NAIVE BAYES                       4. LASSO RIDGE
+                 5.KNN      
+
+
+
+         	WHEN TO USE THE MATRIX AND ERROR 
+                      REGRESSION                         CLASSIFICATION:
+                         1.MSE                                 1.ACCURACY_SCORE
+                         2.RMSE                                2.CLASSIFICATION_REPORT
+                         3.MAE                                 3.CONFUSED_MATRIX
+                         4.R2_SCORE
+
+
+        NOW OUR FIRST MODEL:
+                          1.linear regression:
+
+                                             *it is used for regression tasks (it is used to predict the two feautre in the input data like we have to predict the gpa using sat score)
+                                             note : we have to reshape the variable here because model always want in arrays	
+                                                  : and this is the regression model right so we use mse,mae,r2	,rmse,adjustedr2
+          
+                                                  
+                                             
+
+
+
